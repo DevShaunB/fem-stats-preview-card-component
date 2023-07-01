@@ -37,6 +37,36 @@ picture {
   display: block;
 }
 
+/* UTILITY CLASSES */
+
+.bg-blue-400 {
+  background-color: hsl(var(--clr-blue-400));
+}
+
+.bg-blue-300 {
+  background-color: hsl(var(--clr-blue-300));
+}
+
+.bg-violet-400 {
+  background-color: hsl(var(--clr-violet-400));
+}
+
+.text-violet-400 {
+  color: hsl(var(--clr-violet-400));
+}
+
+.text-white-200 {
+  color: hsl(var(--clr-white) / 0.6);
+}
+
+.text-white-300 {
+  color: hsl(var(--clr-white) / 0.75);
+}
+
+.text-white-400 {
+  color: hsl(var(--clr-white));
+}
+
 body {
   font-size: 0.9375rem;
 }
