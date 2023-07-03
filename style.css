@@ -113,6 +113,14 @@ body {
 
 .stats-preview-card__img-wrapper {
   display: flex;
+  position: relative;
+}
+
+.stats-preview-card__img-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: hsl(var(--clr-violet-400) / 0.6);
 }
 
 .stats-preview-card__img {
