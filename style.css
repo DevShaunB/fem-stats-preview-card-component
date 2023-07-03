@@ -194,6 +194,7 @@ body {
   }
 
   .stats-preview-card__desc {
+    margin-block: 1.667em 4.8em;
     padding-right: 0.5em;
   }
 
