@@ -40,7 +40,7 @@ body {
 
 img,
 picture {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -101,21 +101,95 @@ picture {
 body {
   font-family: var(--ff-sans);
   font-size: 0.9375rem;
+  padding: 1.6em;
 }
 
 .stats-preview-card {
-  width: 80%;
-  max-width: 74em;
+  max-width: 21.8em;
   margin-inline: auto;
-  border-radius: 1em;
+  border-radius: 0.5333em;
   overflow: hidden;
+}
+
+.stats-preview-card__img-wrapper {
+  display: flex;
+}
+
+.stats-preview-card__img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.stats-preview-card__text {
+  padding: 2.667em 2em 2.467em;
+  text-align: center;
+}
+
+.stats-preview-card__title {
+  font-size: 1.75rem;
+  line-height: 1.15;
+}
+
+.stats-preview-card__desc {
+  line-height: 1.6;
+  margin-block: 1em 2.667em;
+}
+
+.stats-preview-card__stats-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.stats-preview-card__stats-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
 }
 
 .stats-preview-card__stat-value {
   font-weight: var(--fw-bold);
+  font-size: 1.5rem;
 }
 
 .stats-preview-card__stat-heading {
   font-family: var(--ff-lexend-deca);
   text-transform: uppercase;
+  font-size: 0.8125rem;
+  letter-spacing: 2%;
+}
+
+@media screen and (min-width: 56.25em) {
+  .stats-preview-card {
+    max-width: 74em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    grid-auto-flow: dense;
+  }
+
+  .stats-preview-card__img-wrapper {
+    grid-column: 2 / span 1;
+  }
+
+  .stats-preview-card__text {
+    padding: 4.8em 5.467em 4.267em 4.8em;
+    text-align: unset;
+  }
+
+  .stats-preview-card__title {
+    font-size: 2.25rem;
+    line-height: 1.4;
+  }
+
+  .stats-preview-card__desc {
+    padding-right: 0.5em;
+  }
+
+  .stats-preview-card__stats-list {
+    flex-direction: row;
+  }
 }
