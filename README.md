@@ -1,91 +1,170 @@
-# Frontend Mentor - Stats preview card component
+# Frontend Mentor - Stats preview card component solution
 
-![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Reference](#reference)
+  - [Font](#font)
+  - [Color](#color)
+  - [Typography](#typography)
+- [Run Locally](#run-locally)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+### The challenge
 
-## The challenge
-
-Your challenge is to build out this card component and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+![Stats preview card component desktop screenshot](https://devshaunb.github.io/fem-stats-preview-card-component/screenshots/desktop.png)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+![Stats preview card component tablet screenshot](https://devshaunb.github.io/fem-stats-preview-card-component/screenshots/tablet.png)
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+![Stats preview card component mobile screenshot](https://devshaunb.github.io/fem-stats-preview-card-component/screenshots/mobile.png)
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+### Links
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+- Live Site URL: [https://devshaunb.github.io/fem-stats-preview-card-component/](https://devshaunb.github.io/fem-stats-preview-card-component/)
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+## Reference
 
-## Building your project
+### Font
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700
+  <br>
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### Color
 
-## Deploying your project
+#### Primary
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+- ![hsl(233, 47%, 7%)](https://via.placeholder.com/10/090b1a?text=+) `Very dark blue (main background): hsl(233, 47%, 7%)`
+- ![hsl(244, 38%, 16%)](https://via.placeholder.com/10/1b1938?text=+) `Dark desaturated blue (card background): hsl(244, 38%, 16%)`
+- ![hsl(277, 64%, 61%)](https://via.placeholder.com/10/aa5cdb?text=+) `Soft violet (accent): hsl(277, 64%, 61%)`
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+#### Neutral
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+- ![hsl(0, 0%, 100%)](https://via.placeholder.com/10/ffffff?text=+) `White (main heading, stats): hsl(0, 0%, 100%)`
 
-## Create a custom `README.md`
+### Typography
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+#### Body Copy
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+- Font size (paragraph): 15px
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+## Run Locally
 
-## Submitting your solution
+Clone the project
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+```bash
+  git clone https://github.com/DevShaunB/fem-stats-preview-card-component.git
+```
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+Go to the project directory
 
-## Sharing your solution
+```bash
+  cd fem-stats-preview-card-component/
+```
 
-There are multiple places you can share your solution:
+Run `index.html`
 
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+```bash
+  <browsername> index.html
+```
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+E.g.
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+```bash
+  firefox index.html
+```
 
-## Got feedback for us?
+```bash
+  google-chrome index.html
+```
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+## My process
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+### Built with
 
-**Have fun building!** 🚀
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+
+### What I learned
+
+- creating semantic list in HTML
+- hiding elements from screen readers
+- using grid to create equal columns
+
+```css
+.stats-preview-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+```
+
+- changing order of elements in a grid
+
+```css
+.stats-preview-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: dense;
+}
+
+.stats-preview-card__img-wrapper {
+  grid-column: 2 / span 1;
+}
+```
+
+- creating image overlay
+
+```css
+.stats-preview-card__img-wrapper {
+  position: relative;
+}
+
+.stats-preview-card__img-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: hsl(var(--clr-violet-400) / 0.6);
+}
+```
+
+- working with images to take full (flex) parent height and width
+
+```css
+.stats-preview-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+```
+
+## Author
+
+- Frontend Mentor - [@DevShaunB](https://www.frontendmentor.io/profile/DevShaunB)
+- Twitter - [@DevShaunB](https://www.twitter.com/DevShaunB)
+
+## Acknowledgments
+
+- [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62) by [Frontend Mentor](https://www.frontendmentor.io/)
