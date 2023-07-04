@@ -170,6 +170,17 @@ body {
   letter-spacing: 2%;
 }
 
+@media screen and (min-width: 40em) {
+  .stats-preview-card {
+    max-width: 60%;
+  }
+
+  .stats-preview-card__stats-list {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
 @media screen and (min-width: 56.25em) {
   .stats-preview-card {
     max-width: 74em;
@@ -199,6 +210,6 @@ body {
   }
 
   .stats-preview-card__stats-list {
-    flex-direction: row;
+    justify-content: space-between;
   }
 }
