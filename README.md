@@ -37,6 +37,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-with-flexbox-and-grid-dbVMOX9ctN](https://www.frontendmentor.io/solutions/stats-preview-card-component-with-flexbox-and-grid-dbVMOX9ctN)
 - Live Site URL: [https://devshaunb.github.io/fem-stats-preview-card-component/](https://devshaunb.github.io/fem-stats-preview-card-component/)
 
 ## Reference
